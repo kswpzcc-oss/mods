@@ -1,0 +1,116 @@
+{
+  "PluginInfo": {
+    "PluginName": "额外生命 (Extra Lives)"
+  },
+  "ConfigEntries": {
+    "Test Mode": {
+      "Category": "0.开发",
+      "DispName": "测试模式",
+      "Description": "开启后可能会输出额外的调试日志或启用测试功能。"
+    },
+    "Give Up Key": {
+      "Category": "1.通用",
+      "DispName": "放弃复活按键",
+      "Description": "倒地后按下此键将直接死亡（放弃本次复活机会）。"
+    },
+    "Invulnerability Duration (s)": {
+      "Category": "1.通用",
+      "DispName": "无敌持续时间 (秒)",
+      "Description": "复活后获得的无敌状态持续时间。"
+    },
+    "Extra Lives": {
+      "Category": "1.通用",
+      "DispName": "玩家生命数",
+      "Description": "每局游戏允许复活的总次数。"
+    },
+    "Revival Key": {
+      "Category": "1.通用",
+      "DispName": "自我复活按键",
+      "Description": "倒地后按下此键进行自我复活。"
+    },
+    "Require Active Buff": {
+      "Category": "2.复活条件",
+      "DispName": "需要的BUFF",
+      "Description": "复活需要满足拥有该BUFF才能复活。"
+    },
+    "Require Head Health > 0": {
+      "Category": "2.复活条件",
+      "DispName": "需要头部生命值 > 0",
+      "Description": "复活是否要求头部生命值必须大于0（关闭则允许爆头黑头后复活）。"
+    },
+    "Require Stim": {
+      "Category": "2.复活条件",
+      "DispName": "需要的兴奋剂",
+      "Description": "复活需要背包里拥有该兴奋剂才能复活。"
+    },
+    "Restore destroyed body parts": {
+      "Category": "3.复活时",
+      "DispName": "恢复受损肢体",
+      "Description": "复活时是否自动修复损坏（变黑）的肢体。"
+    },
+    "Restore destroyed body parts healing": {
+      "Category": "3.复活时",
+      "DispName": "修复肢体恢复生命值比例",
+      "Description": "修复损坏肢体时，同步恢复的生命值百分比。"
+    },
+    "Clear Debuffs": {
+      "Category": "3.复活时",
+      "DispName": "清除减益效果",
+      "Description": "复活时是否清除身上的减益效果（流血、骨折、中毒、脱水等负面效果）。"
+    },
+    "Restore hydration and energy": {
+      "Category": "3.复活时",
+      "DispName": "恢复水份与饱食度",
+      "Description": "复活时是否恢复水份与饱食度。"
+    },
+    "Restore hydration and energy healing": {
+      "Category": "3.复活时",
+      "DispName": "水份与饱食度恢复比例",
+      "Description": "复活时水份与饱食度恢复到该百分比。若当前值已高于此比例，则维持当前值不变。"
+    }
+  },
+  "Enum": {
+    "None": "无",
+    "Any": "任意",
+    "BuffsAdrenaline": "肾上腺素",
+    "BuffsPropital": "黄针 (Propital)",
+    "BuffsSJ1TGLabs": "SJ1",
+    "BuffsSJ6TGLabs": "蓝针 (SJ6)",
+    "BuffsZagustin": "紫针 (Zagustin)",
+    "BuffseTGchange": "绿针 (eTG-change)",
+    "Buffs_2A2bTG": "2A2(b-TG)",
+    "Buffs_3bTG": "3-(b-TG)",
+    "Buffs_AHF1M": "AHF1-M",
+    "Buffs_Antidote": "解毒针",
+    "Buffs_L1": "L1",
+    "Buffs_MULE": "MULE",
+    "Buffs_Meldonin": "米屈肼 (Meldonin)",
+    "Buffs_Obdolbos": "OBD (鸡尾酒)",
+    "Buffs_Obdolbos2": "OBD-2",
+    "Buffs_P22": "P22",
+    "Buffs_PNB": "PNB",
+    "Buffs_Perfotoran": "人造血",
+    "Buffs_SJ12_TGLabs": "SJ12",
+    "Buffs_Trimadol": "曲马多",
+    "Adrenaline": "肾上腺素",
+    "Propital": "黄针 (Propital)",
+    "SJ1TGLabs": "SJ1",
+    "SJ6TGLabs": "蓝针 (SJ6)",
+    "Zagustin": "紫针 (Zagustin)",
+    "eTGchange": "绿针 (eTG-change)",
+    "2A2bTG": "2A2(b-TG)",
+    "3bTG": "3-(b-TG)",
+    "AHF1M": "AHF1-M",
+    "Antidote": "解毒针",
+    "L1": "L1",
+    "MULE": "MULE",
+    "Meldonin": "米屈肼 (Meldonin)",
+    "Obdolbos": "OBD (鸡尾酒)",
+    "Obdolbos2": "OBD-2",
+    "P22": "P22",
+    "PNB": "PNB",
+    "Perfotoran": "人造血",
+    "SJ12_TGLabs": "SJ12",
+    "Trimadol": "曲马多"
+  }
+}
